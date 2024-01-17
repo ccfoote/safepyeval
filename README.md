@@ -32,6 +32,7 @@ if userId in admin_user_ids:
   return True
 else:
   return False
+'''
 
 result = safepyeval.evaluate(code, {'userId': 'user1'})
 # result is True
