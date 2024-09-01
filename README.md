@@ -64,7 +64,7 @@ To maintain safety and prevent abuse, safepyeval does not implement certain part
 import safepyeval
 
 code = '''
-admin_user_ids = ['magland', 'admin']
+admin_user_ids = ['ccfoote', 'admin']
 max_num_cpus_for_admin = 8
 max_num_cpus_for_privileged_users = 4
 other_users = {
@@ -75,7 +75,7 @@ other_users = {
         'max_num_cpus': 1
     }
 }
-if userId in admin_user_ids and not userId == 'magland':
+if userId in admin_user_ids and not userId == 'ccfoote':
     if nCpus <= max_num_cpus_for_admin:
         return True
     else:
