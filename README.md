@@ -109,7 +109,3 @@ The library is very small, consisting of a single Python file (safepyeval.py) wi
 ## License
 
 This package is released under Apache License 2.0.
-
-## Author
-
-Created by Jeremy Magland
